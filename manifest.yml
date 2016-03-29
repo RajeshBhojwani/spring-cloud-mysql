@@ -1,0 +1,9 @@
+---
+applications:
+  - name: springdatamysql
+    buildpack: java_buildpack
+    path: target/spring-data-mysql-1.0.0.BUILD-SNAPSHOT.jar
+services:
+    - configserver
+    - discovery
+    - mysql
